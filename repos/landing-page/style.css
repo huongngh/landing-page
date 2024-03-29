@@ -1,0 +1,171 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color:#3882f6;
+    width:200px;
+    color:#F9FAF8;
+    padding: 14px 28px;
+    border-radius:12px;
+    font-size: 20px;
+    font-weight:900;
+    cursor:pointer;
+}
+
+.header{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding:24px 120px;
+}
+
+.header .left{
+    display:flex;
+    flex-direction: row;
+    gap:16px;
+    align-items:center;
+}
+.header .logo{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.header img{
+    width:100px;
+    height:100px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.hero{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap:52px;
+    padding: 24px 120px 120px;
+}
+
+.hero .left{
+    flex: 1 1 0px;
+    align-items: center;
+}
+
+.hero .main{
+    font-size:48px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+
+.hero .secondary{
+    font-size:18px;
+    color:#e5e7eb;
+    margin-bottom: 16px;
+}
+
+.hero img{
+    flex: 1 1 0px;
+}
+
+.hero button{
+    border: none;
+    flex-grow:1;
+    flex-basis: 100px;
+}
+
+.information{
+    text-align: center;
+    padding: 52px 120px;
+}
+
+.information .title{
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+    margin-bottom: 32px;
+}
+
+.information .container{
+    display:flex;
+    flex: 1 1 0px;
+    justify-content:center;
+    gap:52px;
+}
+
+.information  .info{
+    max-width: 400px;
+}
+
+.information img{
+    width: 300px;
+    height: 200px;
+    margin-bottom:24px;
+}
+
+.quote{
+    background-color:#e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote .text{
+    font-size:24px;
+    font-style: italic;
+    font-weight:light;
+    text-align: left;
+    padding: 0 0 24px;
+}
+
+.quote .author{
+    text-align: right;
+    color:#1F2937;
+    font-weight:900;
+}
+
+.action{
+    margin:100px 200px;
+    padding:32px 120px;
+    background-color:#3882f6;
+    color:#F9FAF8;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 20px;
+    gap: 120px;
+}
+
+.action  .left  .call{
+    font-weight:900;
+}
+
+.action .left  .text{
+    color:#e5e7eb;
+}
+
+.action button{
+    border:3px solid;
+}
+
+.footer{
+    background-color:#1F2937;
+    text-align: center;
+    padding: 40px 120px;
+    color:#F9FAF8;
+}
