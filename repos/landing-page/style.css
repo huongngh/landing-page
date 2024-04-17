@@ -85,8 +85,7 @@ a{
 
 .hero button{
     border: none;
-    flex-grow:1;
-    flex-basis: 100px;
+    flex:1 0 100px;
 }
 
 .information{
